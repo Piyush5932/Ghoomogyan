@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758135318176",
+    "project_id": "ghoomogyaan",
+    "storage_bucket": "ghoomogyaan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758135318176:android:a563a0fe9d530098040bc5",
+        "android_client_info": {
+          "package_name": "com.example.ghoomogyaan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5pNbTsiU6R2jGe0lRHrTF2ZRN3D9nHtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

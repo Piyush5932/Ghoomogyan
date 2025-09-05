@@ -1,0 +1,21 @@
+# Android / Gradle
+.gradle/
+build/
+captures/
+local.properties
+.idea/
+.DS_Store
+
+# Gradle generated files
+.gradle/
+*.iml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# Firebase config should be added manually if needed
+google-services.json

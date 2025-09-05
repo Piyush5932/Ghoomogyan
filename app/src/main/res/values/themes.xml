@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GhoomoGyaan" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/dull2</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/dull</item>
+
+    </style>
+
+    <style name="Theme.GhoomoGyaan" parent="Base.Theme.GhoomoGyaan" />
+</resources>

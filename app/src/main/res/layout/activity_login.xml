@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login"
+    tools:ignore="ExtraText">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/circular"
+        android:backgroundTint="@color/dull">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/circular"
+        android:backgroundTint="@color/dull2">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/circular"
+        android:backgroundTint="@color/dull2">
+
+    </RelativeLayout>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_margin="9dp"
+        android:rotationX="360"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="126dp"
+        tools:ignore="ContentDescription" />
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+    android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+<com.hbb20.CountryCodePicker
+    android:layout_width="wrap_content"
+    android:id="@+id/CCP"
+    android:layout_height="62dp"
+    app:ccp_contentColor="@color/white"
+    android:background="@drawable/round_corner"
+    android:gravity="center"
+    app:ccp_showFlag="false"
+    app:ccp_showNameCode="false"
+    />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="303dp"
+            android:layout_height="62dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_corner"
+            android:elevation="5dp"
+            android:hint="@string/mobile"
+
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white1"
+            android:textSize="18sp"
+            tools:ignore="Autofill" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:id="@+id/otp_btn"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_rnd"
+            android:text="@string/otp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
